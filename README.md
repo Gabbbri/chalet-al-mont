@@ -30,3 +30,6 @@ Aggiorna anche quel dizionario se vuoi che le modifiche sopravvivano alla rigene
 Le foto sono incluse nel repository. Restano esterni Google Fonts, la mappa Google Maps e i collegamenti WhatsApp.
 Il modulo apre una bozza WhatsApp per Leonardo: non invia email e non conferma automaticamente la disponibilità.
 Il calendario seleziona le date, non legge un calendario di prenotazioni in tempo reale.
+
+## Aggiornamento modulo e gallerie
+Le foto scorrono lateralmente; su mobile le frecce sono nascoste e si possono usare gesti e anteprime. Il campo email è stato rimosso. Il messaggio è facoltativo. Le richieste EN/DE includono sotto una versione italiana dei dati del soggiorno; il testo libero dell’ospite viene conservato nella lingua originale e indicato come tale. Nessun servizio di traduzione viene chiamato.

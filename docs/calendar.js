@@ -48,10 +48,9 @@ document.querySelector('#contact-form').addEventListener('submit', event => {
   event.preventDefault();
   if (send.disabled || !event.currentTarget.reportValidity()) return;
   const name = document.querySelector('#contact-name').value.trim();
-  const email = document.querySelector('#contact-email').value.trim();
   const message = document.querySelector('#contact-message').value.trim();
   const validDates = nights(arrival.value, departure.value);
-  const text = requestText({name,email,message,arrival:validDates?format(arrival.value):'',departure:validDates?format(departure.value):'',guests:guests.value});
+  const text = requestText({name,message,arrival:validDates?arrival.value:'',departure:validDates?departure.value:'',guests:guests.value});
   window.open(`https://wa.me/393356055109?text=${encodeURIComponent(text)}`, '_blank', 'noopener,noreferrer');
 });
 update();
