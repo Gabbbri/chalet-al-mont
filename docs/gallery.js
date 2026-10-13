@@ -1,11 +1,20 @@
 const reducedMotion = () => window.matchMedia('(prefers-reduced-motion: reduce)').matches;
 async function ready(image) {
+  // A selected hidden slide must load now, rather than wait for viewport visibility.
+  image.loading = 'eager';
   if (image.dataset.src) {
     if (image.dataset.srcset) image.srcset = image.dataset.srcset;
     image.src = image.dataset.src;
     delete image.dataset.src; delete image.dataset.srcset;
   }
-  try { await image.decode(); } catch { /* Keep controls usable after a failed image download. */ }
+  let timeout;
+  try {
+    await Promise.race([
+      image.decode(),
+      new Promise(resolve => {timeout = setTimeout(resolve, 4000);})
+    ]);
+  } catch { /* Failed image downloads must not lock the gallery controls. */ }
+  finally { clearTimeout(timeout); }
 }
 async function slideAcross(outgoing, incoming, direction) {
   incoming.hidden = false;
@@ -62,9 +71,11 @@ async function showPhoto(next, direction=1) {
   const outgoing=view.querySelector('img'), incoming=imageFor(index);
   incoming.hidden=true;
   view.append(incoming);
-  await ready(incoming);
-  await slideAcross(outgoing,incoming,direction);
-  outgoing.remove();incoming.hidden=false;current=index;counter();lightboxBusy=false;
+  try {
+    await ready(incoming);
+    await slideAcross(outgoing,incoming,direction);
+    outgoing.remove();incoming.hidden=false;current=index;counter();
+  } finally {lightboxBusy=false;}
 }
 photos.forEach((anchor,index)=>anchor.addEventListener('click',event=>{
   event.preventDefault();
@@ -97,10 +108,12 @@ document.querySelectorAll('[data-space-gallery]').forEach(gallery=>{
     const target=(next+slides.length)%slides.length;
     if(busy||target===index)return;
     busy=true;
-    await ready(slides[target].querySelector('img'));
-    slides[target].tabIndex=-1;
-    await slideAcross(slides[index],slides[target],direction);
-    index=target;update();busy=false;
+    try {
+      await ready(slides[target].querySelector('img'));
+      slides[target].tabIndex=-1;
+      await slideAcross(slides[index],slides[target],direction);
+      index=target;update();
+    } finally {busy=false;}
   }
   gallery.querySelectorAll('[data-step]').forEach(button=>button.addEventListener('click',()=>{
     const step=Number(button.dataset.step);select(index+step,step);
