@@ -1,0 +1,484 @@
+{
+  "bagno-originale.jpg": [
+    {
+      "src": "/assets/bagno-originale-240.webp",
+      "width": 240,
+      "height": 180,
+      "bytes": 5244
+    },
+    {
+      "src": "/assets/bagno-originale-480.webp",
+      "width": 480,
+      "height": 360,
+      "bytes": 17014
+    },
+    {
+      "src": "/assets/bagno-originale-960.webp",
+      "width": 960,
+      "height": 720,
+      "bytes": 46212
+    },
+    {
+      "src": "/assets/bagno-originale-1600.webp",
+      "width": 1600,
+      "height": 1200,
+      "bytes": 108504
+    }
+  ],
+  "camera-ai.png": [
+    {
+      "src": "/assets/camera-ai-240.webp",
+      "width": 240,
+      "height": 135,
+      "bytes": 4302
+    },
+    {
+      "src": "/assets/camera-ai-480.webp",
+      "width": 480,
+      "height": 270,
+      "bytes": 16814
+    },
+    {
+      "src": "/assets/camera-ai-960.webp",
+      "width": 960,
+      "height": 540,
+      "bytes": 58098
+    },
+    {
+      "src": "/assets/camera-ai-1600.webp",
+      "width": 1600,
+      "height": 900,
+      "bytes": 144300
+    }
+  ],
+  "camera-armadio-originale.jpg": [
+    {
+      "src": "/assets/camera-armadio-originale-240.webp",
+      "width": 240,
+      "height": 135,
+      "bytes": 3488
+    },
+    {
+      "src": "/assets/camera-armadio-originale-480.webp",
+      "width": 480,
+      "height": 270,
+      "bytes": 13670
+    },
+    {
+      "src": "/assets/camera-armadio-originale-960.webp",
+      "width": 960,
+      "height": 540,
+      "bytes": 68042
+    },
+    {
+      "src": "/assets/camera-armadio-originale-1600.webp",
+      "width": 1600,
+      "height": 900,
+      "bytes": 202766
+    }
+  ],
+  "chalet.jpg.png": [
+    {
+      "src": "/assets/chalet.jpg-240.webp",
+      "width": 240,
+      "height": 180,
+      "bytes": 10490
+    },
+    {
+      "src": "/assets/chalet.jpg-480.webp",
+      "width": 480,
+      "height": 360,
+      "bytes": 50930
+    },
+    {
+      "src": "/assets/chalet.jpg-960.webp",
+      "width": 960,
+      "height": 720,
+      "bytes": 195460
+    },
+    {
+      "src": "/assets/chalet.jpg-1448.webp",
+      "width": 1448,
+      "height": 1086,
+      "bytes": 385564
+    }
+  ],
+  "cucina-ai.png": [
+    {
+      "src": "/assets/cucina-ai-240.webp",
+      "width": 240,
+      "height": 180,
+      "bytes": 7198
+    },
+    {
+      "src": "/assets/cucina-ai-480.webp",
+      "width": 480,
+      "height": 360,
+      "bytes": 26828
+    },
+    {
+      "src": "/assets/cucina-ai-960.webp",
+      "width": 960,
+      "height": 720,
+      "bytes": 79874
+    },
+    {
+      "src": "/assets/cucina-ai-1448.webp",
+      "width": 1448,
+      "height": 1086,
+      "bytes": 145014
+    }
+  ],
+  "facciata.png": [
+    {
+      "src": "/assets/facciata-240.webp",
+      "width": 240,
+      "height": 320,
+      "bytes": 17378
+    },
+    {
+      "src": "/assets/facciata-480.webp",
+      "width": 480,
+      "height": 640,
+      "bytes": 79792
+    },
+    {
+      "src": "/assets/facciata-960.webp",
+      "width": 960,
+      "height": 1280,
+      "bytes": 270760
+    },
+    {
+      "src": "/assets/facciata-1086.webp",
+      "width": 1086,
+      "height": 1448,
+      "bytes": 330926
+    }
+  ],
+  "famiglia-originale.jpg": [
+    {
+      "src": "/assets/famiglia-originale-240.webp",
+      "width": 240,
+      "height": 135,
+      "bytes": 8990
+    },
+    {
+      "src": "/assets/famiglia-originale-480.webp",
+      "width": 480,
+      "height": 270,
+      "bytes": 42156
+    },
+    {
+      "src": "/assets/famiglia-originale-960.webp",
+      "width": 960,
+      "height": 540,
+      "bytes": 164350
+    },
+    {
+      "src": "/assets/famiglia-originale-1600.webp",
+      "width": 1600,
+      "height": 900,
+      "bytes": 411854
+    }
+  ],
+  "letti-ai.png": [
+    {
+      "src": "/assets/letti-ai-240.webp",
+      "width": 240,
+      "height": 135,
+      "bytes": 4840
+    },
+    {
+      "src": "/assets/letti-ai-480.webp",
+      "width": 480,
+      "height": 270,
+      "bytes": 19596
+    },
+    {
+      "src": "/assets/letti-ai-960.webp",
+      "width": 960,
+      "height": 540,
+      "bytes": 62812
+    },
+    {
+      "src": "/assets/letti-ai-1600.webp",
+      "width": 1600,
+      "height": 900,
+      "bytes": 132518
+    }
+  ],
+  "matrimoniale-ai.png": [
+    {
+      "src": "/assets/matrimoniale-ai-240.webp",
+      "width": 240,
+      "height": 135,
+      "bytes": 4512
+    },
+    {
+      "src": "/assets/matrimoniale-ai-480.webp",
+      "width": 480,
+      "height": 270,
+      "bytes": 18572
+    },
+    {
+      "src": "/assets/matrimoniale-ai-960.webp",
+      "width": 960,
+      "height": 540,
+      "bytes": 78430
+    },
+    {
+      "src": "/assets/matrimoniale-ai-1600.webp",
+      "width": 1600,
+      "height": 900,
+      "bytes": 208254
+    }
+  ],
+  "originale-15.jpg": [
+    {
+      "src": "/assets/originale-15-240.webp",
+      "width": 240,
+      "height": 135,
+      "bytes": 6782
+    },
+    {
+      "src": "/assets/originale-15-480.webp",
+      "width": 480,
+      "height": 270,
+      "bytes": 32514
+    },
+    {
+      "src": "/assets/originale-15-960.webp",
+      "width": 960,
+      "height": 540,
+      "bytes": 131194
+    },
+    {
+      "src": "/assets/originale-15-1600.webp",
+      "width": 1600,
+      "height": 900,
+      "bytes": 328486
+    }
+  ],
+  "panca-originale.jpg": [
+    {
+      "src": "/assets/panca-originale-240.webp",
+      "width": 240,
+      "height": 320,
+      "bytes": 10888
+    },
+    {
+      "src": "/assets/panca-originale-480.webp",
+      "width": 480,
+      "height": 640,
+      "bytes": 46804
+    },
+    {
+      "src": "/assets/panca-originale-960.webp",
+      "width": 960,
+      "height": 1280,
+      "bytes": 164470
+    },
+    {
+      "src": "/assets/panca-originale-1600.webp",
+      "width": 1600,
+      "height": 2133,
+      "bytes": 406160
+    }
+  ],
+  "prato-ai.png": [
+    {
+      "src": "/assets/prato-ai-240.webp",
+      "width": 240,
+      "height": 135,
+      "bytes": 9618
+    },
+    {
+      "src": "/assets/prato-ai-480.webp",
+      "width": 480,
+      "height": 270,
+      "bytes": 45662
+    },
+    {
+      "src": "/assets/prato-ai-960.webp",
+      "width": 960,
+      "height": 540,
+      "bytes": 179648
+    },
+    {
+      "src": "/assets/prato-ai-1600.webp",
+      "width": 1600,
+      "height": 900,
+      "bytes": 425682
+    }
+  ],
+  "radura.png": [
+    {
+      "src": "/assets/radura-240.webp",
+      "width": 240,
+      "height": 135,
+      "bytes": 8612
+    },
+    {
+      "src": "/assets/radura-480.webp",
+      "width": 480,
+      "height": 270,
+      "bytes": 40842
+    },
+    {
+      "src": "/assets/radura-960.webp",
+      "width": 960,
+      "height": 540,
+      "bytes": 156358
+    },
+    {
+      "src": "/assets/radura-1600.webp",
+      "width": 1600,
+      "height": 900,
+      "bytes": 375246
+    }
+  ],
+  "soggiorno-ai.png": [
+    {
+      "src": "/assets/soggiorno-ai-240.webp",
+      "width": 240,
+      "height": 320,
+      "bytes": 9226
+    },
+    {
+      "src": "/assets/soggiorno-ai-480.webp",
+      "width": 480,
+      "height": 640,
+      "bytes": 40824
+    },
+    {
+      "src": "/assets/soggiorno-ai-960.webp",
+      "width": 960,
+      "height": 1280,
+      "bytes": 160082
+    },
+    {
+      "src": "/assets/soggiorno-ai-1086.webp",
+      "width": 1086,
+      "height": 1448,
+      "bytes": 205420
+    }
+  ],
+  "stufa-ai.png": [
+    {
+      "src": "/assets/stufa-ai-240.webp",
+      "width": 240,
+      "height": 426,
+      "bytes": 15068
+    },
+    {
+      "src": "/assets/stufa-ai-480.webp",
+      "width": 480,
+      "height": 853,
+      "bytes": 66858
+    },
+    {
+      "src": "/assets/stufa-ai-941.webp",
+      "width": 941,
+      "height": 1672,
+      "bytes": 208410
+    }
+  ],
+  "terrazza-accesso-originale.jpg": [
+    {
+      "src": "/assets/terrazza-accesso-originale-240.webp",
+      "width": 240,
+      "height": 135,
+      "bytes": 7684
+    },
+    {
+      "src": "/assets/terrazza-accesso-originale-480.webp",
+      "width": 480,
+      "height": 270,
+      "bytes": 36874
+    },
+    {
+      "src": "/assets/terrazza-accesso-originale-960.webp",
+      "width": 960,
+      "height": 540,
+      "bytes": 145342
+    },
+    {
+      "src": "/assets/terrazza-accesso-originale-1600.webp",
+      "width": 1600,
+      "height": 900,
+      "bytes": 359070
+    }
+  ],
+  "terrazza-ai.png": [
+    {
+      "src": "/assets/terrazza-ai-240.webp",
+      "width": 240,
+      "height": 180,
+      "bytes": 8992
+    },
+    {
+      "src": "/assets/terrazza-ai-480.webp",
+      "width": 480,
+      "height": 360,
+      "bytes": 38562
+    },
+    {
+      "src": "/assets/terrazza-ai-960.webp",
+      "width": 960,
+      "height": 720,
+      "bytes": 136586
+    },
+    {
+      "src": "/assets/terrazza-ai-1448.webp",
+      "width": 1448,
+      "height": 1086,
+      "bytes": 257160
+    }
+  ],
+  "terrazza-lato-originale.jpg": [
+    {
+      "src": "/assets/terrazza-lato-originale-240.webp",
+      "width": 240,
+      "height": 135,
+      "bytes": 5410
+    },
+    {
+      "src": "/assets/terrazza-lato-originale-480.webp",
+      "width": 480,
+      "height": 270,
+      "bytes": 27024
+    },
+    {
+      "src": "/assets/terrazza-lato-originale-960.webp",
+      "width": 960,
+      "height": 540,
+      "bytes": 112044
+    },
+    {
+      "src": "/assets/terrazza-lato-originale-1600.webp",
+      "width": 1600,
+      "height": 900,
+      "bytes": 293948
+    }
+  ],
+  "zona-pranzo-ai.png": [
+    {
+      "src": "/assets/zona-pranzo-ai-240.webp",
+      "width": 240,
+      "height": 426,
+      "bytes": 15176
+    },
+    {
+      "src": "/assets/zona-pranzo-ai-480.webp",
+      "width": 480,
+      "height": 853,
+      "bytes": 60396
+    },
+    {
+      "src": "/assets/zona-pranzo-ai-941.webp",
+      "width": 941,
+      "height": 1672,
+      "bytes": 176688
+    }
+  ]
+}
